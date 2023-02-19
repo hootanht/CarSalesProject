@@ -130,10 +130,10 @@
     <value>groupBox1</value>
   </data>
   <data name="Btn2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>374, 282</value>
+    <value>358, 282</value>
   </data>
   <data name="Btn1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>270, 282</value>
+    <value>250, 282</value>
   </data>
   <data name="&gt;&gt;button2.Name" xml:space="preserve">
     <value>button2</value>
