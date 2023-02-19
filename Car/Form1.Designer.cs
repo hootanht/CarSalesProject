@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Car));
             this.BtnBuyCar = new System.Windows.Forms.Button();
-            this.Btn2 = new System.Windows.Forms.Button();
+            this.BtnRegisteration = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -71,11 +71,11 @@
             this.BtnBuyCar.Name = "BtnBuyCar";
             this.BtnBuyCar.UseVisualStyleBackColor = true;
             // 
-            // Btn2
+            // BtnRegisteration
             // 
-            resources.ApplyResources(this.Btn2, "Btn2");
-            this.Btn2.Name = "Btn2";
-            this.Btn2.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.BtnRegisteration, "BtnRegisteration");
+            this.BtnRegisteration.Name = "BtnRegisteration";
+            this.BtnRegisteration.UseVisualStyleBackColor = true;
             // 
             // groupBox1
             // 
@@ -210,7 +210,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.Btn2);
+            this.Controls.Add(this.BtnRegisteration);
             this.Controls.Add(this.BtnBuyCar);
             this.Name = "Car";
             this.Load += new System.EventHandler(this.Car_Load);
@@ -240,7 +240,7 @@
         #endregion
 
         private Button BtnBuyCar;
-        private Button Btn2;
+        private Button BtnRegisteration;
         private GroupBox groupBox1;
         private PictureBox pictureBox1;
         private Label label1;
