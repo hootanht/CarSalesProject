@@ -6,5 +6,10 @@ namespace Car
         {
             InitializeComponent();
         }
+
+        private void Car_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
