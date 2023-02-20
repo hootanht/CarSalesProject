@@ -21,5 +21,10 @@ namespace Car
         {
 
         }
+
+        private void BtnRegisteration_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
